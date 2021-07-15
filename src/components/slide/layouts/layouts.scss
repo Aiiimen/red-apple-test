@@ -1,0 +1,53 @@
+.image-right-lockup{
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+    align-items: center;
+    .copy{
+        width: 50%;
+        padding: 20px;
+    }
+    @media only screen and (max-width: 768px){
+        flex-direction: column;
+        .copy{
+            padding: 0px;
+            width: 100%;
+        }
+    }
+}
+img{
+    width: 100%;
+}
+.flex-reverse{
+    flex-direction: row-reverse;
+    @media only screen and (max-width: 768px){
+        flex-direction: column;
+    }
+}
+
+.multiple-select{
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+    .radio-buttons{
+        margin: 20px 0px;
+    }
+    div{
+        margin-bottom: 10px;
+    }
+}
+
+.default-layout{
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    @media only screen and (max-width: 768px){
+        width: 95%;
+    }
+    img{
+        width: 50%;
+        @media only screen and (max-width: 768px){
+            width: 95%;
+        }
+    }
+}

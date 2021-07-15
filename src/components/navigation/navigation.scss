@@ -1,0 +1,8 @@
+
+.navigation-container{
+    display: flex;
+    justify-content: flex-end;
+    @media only screen and (max-width: 768px){
+        margin: 40px 0px 20px;
+    }
+}
